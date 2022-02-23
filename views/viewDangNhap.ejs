@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat-App</title>
+    <script src="jquery.js"></script>
+    <script src="https://dang-nhap-appchat-group7.herokuapp.com/socket.io/socket.io.js"></script>
+    <script src="xulyDangNhap.js"></script>
+    <link rel="stylesheet" href="viewDangNhap.css">
+</head>
+<body>
+    <div id="full-web">
+        <!-- form đăng nhập -->
+        <div id="right-web">
+            <input type="text" id="txtEmail" placeholder="Your email address">
+            <input type="password" id="txtPassword" placeholder="Password">
+            <div id="thongBao">tài khoản hoặc mật khẩu của bạn bị sai</div>
+            <br>
+            <button id="btnDangNhap">Đăng nhập</button>
+            <!-- <input type="button" id="btnLoin" value="Đăng nhập"> -->
+            <br>
+            <p id="para_mk">Quên mật khẩu ư:))</p>
+            <button id="btnTaoTK">Tạo tài khoản mới</button>
+            
+        </div>
+
+        <!-- lời chào từ chat app -->
+        <div id="left-web">
+            <h1 id="h1leftweb">Chat App</h1>
+            <p id="para_intro">Chat app do nhóm 7 xây dựng sẽ giúp bạn được điểm cao môn học</p>
+        </div>
+
+        <!-- form sau khi đăng nhập thành công -->
+        <div id="mainPage">
+            <h1>MAIN-PAGE</h1>
+            <div id="sayHi">
+                Hello <span id="userCurrent"></span>
+                <input type="button" id="btnLogout" value="logout">
+                <br>
+                <div id="boxTitle">Users Online</div>
+                <div id="boxContent">
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- giao diện đăng ký tài khoản -->
+        <div id="formSignUp">
+            <h1 id="h1signup">Sign Up</h1>
+            <h3 id="h3signup">Quick and Easy</h3>
+            <input type="text" id="firstname" placeholder="First name">
+            <input type="text" id="lastname" placeholder="Last name">
+            <br>
+            <input type="text" id="txtEmSignup" placeholder="Email address">
+            <br>
+            <input type="password" id="txtPwSignup" placeholder="New password">
+            <br>
+            <p id="thongbaoSignUp">email nay đã có người sử dụng, đăng ký thất bại</p>
+            <button id="btnSignup">Sign Up</button>
+            
+        </div>
+
+    </div>
+</body>
+</html>

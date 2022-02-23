@@ -1,0 +1,189 @@
+body{
+    background-color: #f7f2f6;
+    font-family: sans-serif;
+}
+
+/* màu nền, kiểu chữ ko gạch chân */
+
+#h1leftweb{
+    margin-top: 300px ;
+    margin-bottom: 0px;
+    padding-left: 50px;
+    color: red;
+    font-weight: 700;
+    font-size: 300%;
+}
+
+#para_intro{
+    padding-left: 50px;
+    font-weight: bolder;
+    font-size: 130%;
+}
+
+#right-web{
+    width: 400px;
+    height: 380px;
+    background-color: #f0edf0;
+    float: right;
+    position: relative;
+    bottom: 110px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+#txtEmail{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 100%;
+}
+
+#txtPassword{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 100%;
+}
+
+#btnDangNhap{
+    width: 320px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-left: 20px;
+    background-color: #e63a27;
+    color: white;
+    font-size: larger;
+} 
+
+#para_mk{
+    color: red;
+}
+
+#btnTaoTK{
+    width: 220px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-left: 20px;
+    background-color: #e63a27;
+    color: white;
+    font-size: larger;
+}
+
+#mainPage{
+    clear: both;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+#thongBao{
+    margin-top: none;
+    margin-bottom: 5px;
+    color: red;
+}
+
+/* #btnLogin{
+    color: #e63a27;
+} */
+
+#formSignUp{
+    width: 400px;
+    height: 370px;
+    background-color: #f0edf0;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+}
+
+#h1signup{
+    position: relative;
+    right: 100px;
+}
+
+#h3signup{
+    position: relative;
+    right: 90px;
+}
+
+#firstname{
+    width: 130px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 100%;
+    margin-bottom: 10px;
+
+}
+
+#lastname{
+    width: 130px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 100%;
+    margin-bottom: 10px;
+
+}
+
+#txtEmSignup{
+    width: 290px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 100%;
+    margin-bottom: 10px;
+
+}
+
+#txtPwSignup{
+    width: 290px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 100%;
+    /* margin-bottom: 10px; */
+
+}
+
+#thongbaoSignUp{
+    margin-top: none;
+    margin-bottom: 5px;
+    color: red;
+}
+
+#btnSignup{
+    width: 150px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    /* padding-left: 20px; */
+    background-color: #e63a27;
+    color: white;
+    font-size: larger;
+}
